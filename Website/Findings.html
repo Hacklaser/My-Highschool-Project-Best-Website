@@ -1,0 +1,293 @@
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethical AI in Healthcare - Findings</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+            color: #333;
+        }
+		 * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        header {
+            background: linear-gradient(135deg, #005b96, #003d66);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #003d66;
+            padding: 1rem 0;
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav li {
+            margin: 0 1rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #005b96;
+        }
+        .container {
+            width: 80%;
+            margin: 2rem auto;
+        }
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        .card h2 {
+            color: #005b96;
+            border-bottom: 2px solid #005b96;
+            padding-bottom: 0.5rem;
+        }
+        footer {
+            background-color: #003d66;
+            color: white;
+            text-align: center;
+            padding: 1.5rem 0;
+            margin-top: 2rem;
+        }
+		.footer-links a {
+            color: #a3d0ff;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 0.5rem;
+            transition: color 0.3s;
+        }
+        
+        .footer-links a:hover {
+            color: white;
+        }
+        .chart {
+            margin: 2rem 0;
+            padding: 1rem;
+            background: #e6f2ff;
+            border-radius: 8px;
+        }
+        .bar {
+            height: 30px;
+            background: linear-gradient(90deg, #005b96, #003d66);
+            margin-bottom: 1rem;
+            border-radius: 4px;
+            color: white;
+            padding-left: 10px;
+            display: flex;
+            align-items: center;
+        }
+        .solution {
+            background: #f5f5f5;
+            padding: 1rem;
+            border-left: 4px solid #005b96;
+            margin: 1rem 0;
+            border-radius: 0 4px 4px 0;
+        }
+        .solution h3 {
+            color: #005b96;
+            margin-top: 0;
+        }
+		.bar {
+            height: 30px;
+            background: linear-gradient(90deg, #005b96, #1a6dcc);
+            margin-bottom: 1rem;
+            border-radius: 4px;
+            color: white;
+            padding: 0 10px;
+            display: flex;
+            align-items: center;
+            transition: transform 0.3s;
+        }
+        .bar:hover {
+            transform: scaleX(1.02);
+        }
+        .insight-card {
+            background: #e6f7ff;
+            border-left: 4px solid #1a6dcc;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            border-radius: 0 8px 8px 0;
+        }
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+        }
+        .data-table th, .data-table td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        .data-table th {
+            background-color: #005b96;
+            color: white;
+        }
+        .data-table tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Research Findings: AI in Healthcare</h1>
+        <p>Key discoveries from my investigation into ethical AI implementation</p>
+    </header>
+    
+    <nav>
+        <ul>
+             <li><a href="Homepage.html">Home</a></li>
+            <li><a href="Findings.html">Findings</a></li>
+            <li><a href="Discussion and Analysis.html">Discussion & Analysis</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <div class="card">
+            <h2>Public Concerns About Medical AI</h2>
+            <p>My research identified the primary concerns that patients and professionals have regarding AI in healthcare:</p>
+            
+            <div class="chart">
+                <h3>Top Concerns About Medical AI</h3>
+                <div class="bar" style="width: 98%">Privacy & Data Security (23%)</div>
+                <div class="bar" style="width: 90%">Wrong Diagnosis (21%)</div>
+                <div class="bar" style="width: 85%">Lack of Human Touch (20%)</div>
+                <div class="bar" style="width: 75%">Technical Errors (18%)</div>
+                <div class="bar" style="width: 60%">Cost Increase (10%)</div>
+                <div class="bar" style="width: 50%">Other Concerns (8%)</div>
+            </div>
+            
+            <p>The data shows that privacy and data security are the most significant concerns, with 23% of healthcare facilities having vulnerable security systems. This is followed closely by concerns about wrong diagnoses (21%) and the loss of human touch in healthcare (20%).</p>
+        </div>
+        
+        <div class="card">
+            <h2>Case Study: ChatGPT Diagnosis</h2>
+            <p>In 2023, ChatGPT successfully diagnosed a 17-year-old boy with a rare condition after 17 different doctors failed to identify the problem over three years (Holohan, 2023). This case demonstrates both the potential of AI in medical diagnosis and the current limitations of human-only diagnosis.</p>
+            
+            <div class="solution">
+                <h3>Key Insight</h3>
+                <p>AI can serve as a valuable second opinion in difficult diagnostic cases, particularly for rare conditions where human doctors may have limited experience.</p>
+            </div>
+        </div>
+          <div class="container">
+        <div class="card">
+            <h2>Trust in AI Diagnosis</h2>
+            <div class="chart-container">
+                <div class="chart">
+                    <h3>Trust Level Distribution</h3>
+                    <div class="bar" style="width: 90%">Trust AI (9 respondents, 36%)</div>
+                    <div class="bar" style="width: 100%">Distrust AI (10 respondents, 40%)</div>
+                    <div class="bar" style="width: 60%">Unsure (6 respondents, 24%)</div>
+                </div>
+            </div>
+            
+            <div class="insight-card">
+                <h3>Key Insight</h3>
+                <p>Distrust in AI diagnostics is highest among respondents over 40 (72%), while younger participants (18-30) show significantly more trust (55%).</p>
+            </div>
+        </div>
+        <div class="container">
+            <h1>Survey Findings: AI in Healthcare</h1>
+            <p>Data from 25 participants across multiple demographics</p>
+        </div>
+        <div class="card">
+            <h2>Top Concerns About Medical AI</h2>
+            <div class="chart-container">
+                <div class="chart">
+                    <h3>Primary Concerns</h3>
+                    <div class="bar" style="width: 80%">Privacy (32%, 8 respondents)</div>
+                    <div class="bar" style="width: 70%">Wrong Diagnosis (28%, 7 respondents)</div>
+                    <div class="bar" style="width: 60%">Replacing Doctors (24%, 6 respondents)</div>
+                    <div class="bar" style="width: 40%">Other (16%, 4 respondents)</div>
+                </div>
+            </div>
+            
+            <div class="insight-card">
+                <h3>Gender Differences</h3>
+                <p>Female respondents expressed 15% more privacy concerns than male participants, while men were more concerned about AI replacing doctors.</p>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>Data Permission Requirements</h2>
+            <table class="data-table">
+                <tr>
+                    <th>Permission Preference</th>
+                    <th>Number of Respondents</th>
+                    <th>Percentage</th>
+                </tr>
+                <tr>
+                    <td>Always ask permission</td>
+                    <td>11</td>
+                    <td>44%</td>
+                </tr>
+                <tr>
+                    <td>Sometimes ask permission</td>
+                    <td>10</td>
+                    <td>40%</td>
+                </tr>
+                <tr>
+                    <td>Never ask permission</td>
+                    <td>4</td>
+                    <td>16%</td>
+                </tr>
+            </table>
+            
+            <div class="insight-card">
+                <h3>The Permission Paradox</h3>
+                <p>While 72% demand strict permission protocols, 68% are unwilling to share their medical data to improve AI systems, creating a significant barrier to progress.</p>
+            </div>
+        </div>
+        <div class="card">
+            <h2>Proposed Solutions</h2>
+            
+            <div class="solution">
+                <h3>Enhanced Security Measures</h3>
+                <p>Implement blockchain-based security to reduce data breaches by up to 80% and ensure patient data protection. According to recent studies, blockchain technology can significantly enhance healthcare data security (Liu et al., 2023).</p>
+            </div>
+            
+            <div class="solution">
+                <h3>Comprehensive Testing Protocols</h3>
+                <p>Subject AI systems to rigorous testing across diverse demographic groups to eliminate bias and errors. Current AI models often perform poorly on underrepresented populations due to biased training data (Bodenstedt et al., 2020).</p>
+            </div>
+            
+            <div class="solution">
+                <h3>Ethical Oversight Committees</h3>
+                <p>Establish multidisciplinary teams to monitor AI performance and ethical compliance in healthcare settings. These teams should include clinicians, ethicists, data scientists, and patient advocates.</p>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+	<div class="footer-links">
+	<h3>Research SMyces</h3>
+	  <a href="https://www.today.com/health/mom-chatgpt-diagnosis-pain-rcna101843" target="_blank">ChatGPT Diagnosis Case</a>
+	  <a href="https://www.smartdatainc.com/knowledge-hub/how-can-ai-and-ml-help-healthcare-providers-improve-data-security/" target="_blank">How Can AI and ML Help Healthcare Providers Improve Data Security</a>
+        <p>&copy; 2025 Ethical AI in Healthcare Research | Fundulawizi Secondary School</p>
+		</div>
+    </footer>
+</body>
+</html>
